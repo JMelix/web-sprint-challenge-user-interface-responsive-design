@@ -54,9 +54,9 @@ Before you jump in, take 10 minutes to review the design files. Take time to see
 ​
 You **must** use the Google Chrome developer tools during your HTML/CSS implementation process. The tools use emulation software to "pretend" that they are actually a smaller screen; you cannot get the same effect from simply pinching your browser smaller. This will also allow you to view sizes larger than your current monitor's size, such as the standard 1920x1080px desktop width. You will not be successful with properly implementing a responsive website without using the developer tools.
 ​
-* [ ] Desktop size should be responsive at 1920px width.
+* [x] Desktop size should be responsive at 1920px width.
 * [ ] Mobile size should be responsive at 428px width.
-* [ ] Don't forget your viewport meta tag!
+* [x] Don't forget your viewport meta tag!
 ​
 **NOTE: You may notice that your design doesn't look great between these sizes. This is totally normal; for a real product, there would be at least a tablet size intermediary design and likely several more breakpoints to improve the experience for a variety of screen sizes. If you would like to practice more, feel free to make the project look great at all sizes!**
 ​
@@ -69,11 +69,11 @@ You **must** use the Google Chrome developer tools during your HTML/CSS implemen
 ​
 Review the provided design file for the home page.
 ​
-* [ ] Build the HTML and CSS to create the missing header and footer sections.
-* [ ] Link the h1 page title to the [index.html](index.html) page.
-* [ ] Link the `Menu` navigation item to the [menu.html](menu.html) page.
+* [x] Build the HTML and CSS to create the missing header and footer sections.
+* [x] Link the h1 page title to the [index.html](index.html) page.
+* [x] Link the `Menu` navigation item to the [menu.html](menu.html) page.
 * [ ] Create social media buttons on header for Facebook, Twitter, and Instagram with icons from [FontAwesome](https://fontawesome.com/search). *NOTE: * ENSURE that the icon name includes "facebook", "twitter", or "instagram" respectively.
-* [ ] Build the rest of the home page layout to match the design. Much of it has already been implemented; you should only need to fix the header, footer, and gallery portions.
+* [x] Build the rest of the home page layout to match the design. Much of it has already been implemented; you should only need to fix the header, footer, and gallery portions.
 ​
 Colors and fonts:
 Light text: rgb(225, 239, 230);
@@ -85,9 +85,9 @@ Dark transparency: background-color: rgb(0, 4, 17, .8);
 ​
 Review the provided design files for the menu page.
 ​
-* [ ] Copy and paste your home page header and footer into the menu page.
-* [ ] Update the header image with the menu page image.
-* [ ] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
+* [x] Copy and paste your home page header and footer into the menu page.
+* [x] Update the header image with the menu page image.
+* [x] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
 * [ ] Create a container for each section (e.g. drinks or entrees) with class "menu-section"
 * [ ] Create a container for each item (e.g. soda or burger) with class "menu-item"
 * [ ] Add an H4 for every price and title of the menu, two h4 for each menu

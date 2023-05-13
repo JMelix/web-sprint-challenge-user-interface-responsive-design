@@ -4,66 +4,88 @@
 
 <head>
 	<meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css" />
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-	<div>
 		<!-- header -->
 		<header>
 			<div>
-				BLOOMTECH BAR AND GRILL
-
+				<nav>
+			        <a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a>
+				</nav>
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				<nav id="main-nav">
+				  <a href="menu.html">Menu</a>
+				  <a href="#">Reservations</a>
+				  <a href="#">Special Offers</a>
+				  <a href="#">Contact</a>
+				</nav>
+
+				
+					<!-- <img src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19757.png" /> -->
+				
 			</div>
 		</header>
-
 		<!-- gallery section -->
 		<section class="gallery">
 			<div>
-				<h2>OUR FOOD</h2>
-
-				img/food-avocadotoast.jpg
-
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				<h2 class="heading-two">OUR FOOD</h2>
+			</div>
+			<div class="row">
+				<div class="portfolio-elements">
+				    <img src="img/food-avocadotoast.jpg" alt="Avocado Toast" class="box"/>			
+				</div>
+				<div class="portfolio-elements">
+				    <img src="img/food-burger.jpg" alt="Bloomtech Bar and Grill Traditional Burger" class="box"/>			
+				</div>
+				<div class="portfolio-elements">
+				    <img src="img/food-poutine.jpg" alt="Poutine" class="box"/>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="portfolio-elements">
+				    <img src="img/food-ribs.jpg" alt="Bloomtechs Bar and Grill Famous Ribs" class="box"/>			
+				</div>
+				<div class="portfolio-elements">
+				    <img src="img/food-sandwich.jpg" alt="Bloomtech Bar and Grill Traditional Sandwich" class="box"/>			
+				</div>
+				<div class="portfolio-elements">
+				    <img src="img/food-sausage.jpg" alt="Bloomtech sausage since 1908" class="box"/>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="portfolio-elements">
+				    <img src="img/food-steak.jpg" alt="Bloomtechs steaks are to die for" class="box"/>			
+				</div>
+				<div class="portfolio-elements">
+				    <img src="img/food-tacos.jpg" alt="Don't leave without tryi g our tacos" class="box"/>			
+				</div>
+				<div class="portfolio-elements">
+				    <img src="img/food-wings.jpg" alt="Try our savoury wings" class="box"/>			
+				</div>
 			</div>
 		</section>
 
 		<!-- spacer -->
-		<div class="spacer"></div>
+		<div class="spacer">
+
+		</div>
 
 		<!-- about section -->
 		<section class="about">
 			<div class="about-container">
-				<h2>ABOUT US</h2>
+				<h2 class="heading-two">ABOUT US</h2>
 
 				<div id="cooks" class="pic">
 				</div>
 
 				<div class="text">
-					<h3>Good Food, Great People</h3>
+					<h3 class="heading-three">Good Food, Great People</h3>
 					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
 						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
 						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
@@ -74,6 +96,7 @@
 				</div>
 
 				<div id="bartender" class="pic">
+					<!-- <img src="img/staff-bartender.jpg" alt="Picture of bartenders" /> -->
 				</div>
 			</div>
 		</section>
@@ -84,35 +107,35 @@
 		<!-- contact section -->
 		<section class="contact">
 			<div class="contact-container">
-				<h2>CONTACT US</h2>
+				<h2 class="heading-two">CONTACT US</h2>
 
 				<div class="info">
 					<div class="address">
-						<h3>Address</h3>
+						<h3 class="heading-three">Address</h3>
 
 						<address>
-							<p>100 Main St</p>
-							<p>San Francisco, CA</p>
+							<p class="paras">100 Main St</p>
+							<p class="paras">San Francisco, CA</p>
 						</address>
 					</div>
 
 					<div class="hours">
-						<h3>Hours</h3>
+						<h3 class="heading-three">Hours</h3>
 
 						<div>
-							<p>Sunday to Thursday:</p>
-							<p>12:00p - 12:00a</p>
-							<p>Friday and Saturday:</p>
-							<p>12:00p - 4:00a</p>
+							<p class="paras">Sunday to Thursday:</p>
+							<p class="paras">12:00p - 12:00a</p>
+							<p class="paras">Friday and Saturday:</p>
+							<p class="paras">12:00p - 4:00a</p>
 						</div>
 					</div>
 
 					<div class="contacts">
-						<h3>Contacts</h3>
+						<h3 class="heading-three">Contacts</h3>
 
 						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
-							<a id="email" href="mailto:restaurant@bloomtech.com">restaurant@bloomtech.com</a>
+							<a class="paras" id="phone" href="tel:999-999-9999">999-999-9999</a>
+							<a class="paras" id="email" href="mailto:restaurant@bloomtech.com">restaurant@bloomtech.com</a>
 						</div>
 					</div>
 				</div>
@@ -121,21 +144,29 @@
 
 		<!-- spacer -->
 		<div class="spacer-sm"></div>
-
-		<!-- footer -->
-		<footer>
-			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
-			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
-			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-		</footer>
-	</div>
+		  <!-- footer -->
+		  <footer>
+			  <!-- email signup -->
+			  <div class="footer-container">
+			      <div id="input-container">
+			          <p class="paras" id="align-me">Join our mailing list!</p>
+			          <input placeholder="Email Address" />
+			          <button id="btn"><a href="mailto:jeremymelix4000@yahoo.com">Sign Up</a></button>
+			      </div>
+			      <!-- nav -->
+			      <div id="nav-container">
+			          <nav>
+				          <a href="menu.html">Menu</a>
+				          <a href="#">Reservations</a>
+				          <a href="#">Special Offers</a>
+				          <a href="#">Contacts</a>
+				      </nav>
+			          <!-- copyright -->
+			          <p id="copyright-para">©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</P>
+		          </div>
+			  </div>
+		  </footer>
+	
 </body>
 
 </html>
