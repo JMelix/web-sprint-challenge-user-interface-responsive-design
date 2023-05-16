@@ -102,9 +102,10 @@ header {
 
 header div {
     width: 1920px; /* 100%; */
-    height: 34vh;
+    /* height: 20vh; */
+    padding-bottom: 1%;
     background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
+    /* position: fixed; */
 }
 
 header div nav #link-home-page {
@@ -117,6 +118,13 @@ header div #main-nav a {
 
 header div #main-nav a:hover {
   text-decoration: underline;
+}
+
+header .social-media-icon {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    margin: 0 auto;
 }
 
 /* spacers */
@@ -281,6 +289,7 @@ footer button a {
     font-size: 1.8rem;
     color: rgb(0, 0, 0);
 }
+
 
 /* mobile media query */
 @media (max-width: 428px) {
