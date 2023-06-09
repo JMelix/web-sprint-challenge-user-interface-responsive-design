@@ -8,36 +8,79 @@
 	<title>Sprint Challenge - Contact</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="css/universal.css" />
+	<link rel="stylesheet" href="css/contact.css" />
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-		<!-- header -->
-		<header>
+     <!-- header -->
+	 <header>
+		<div class="header-section">
+			<nav>
+				<h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
+			</nav>
+
+			<!-- nav -->
+			<nav id="main-nav">
+				<a href="menu.html" target="blank">Menu</a>
+				<a href="reservations.html" target="blank">Reservations</a>
+				<a href="specialOffers.html" target="blank" >Special Offers</a>
+				<a href="contact.html" target="blank">Contact</a>
+			</nav>
+
 			<div>
-				<nav>
-                  <h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
-				</nav>
-            </div>
-		    
-			<div>
-				<!-- nav -->
-				<nav id="main-nav">
-				  <a href="menu.html">Menu</a>
-				  <a href="reservations.html">Reservations</a>
-				  <a href="specialOffers.html">Special Offers</a>
-				  <a href="contact.html">Contact</a>
-				</nav>
-			</div>
-			<div>
-                <!-- social media icon nav links -->
+				<!-- social media icon nav links -->
 				<nav class="social-media-icon">
 					<a class="icon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook fa-lg"></i></a>
 					<a class="icon" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter fa-lg"></i></a>
 					<a class="icon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
 				</nav>
-            </div>
-		</header>
-        <body>
-            <h1>Contact</h1>
-        </body>
-    </html>
+			</div>
+		</div>
+	</header>
+
+	 <!-- spacer -->
+	 <div class="spacer"></div>
+
+	<section>
+		<div>
+			<h1>Contact Us</h1>
+			<div id="contact-container">
+			    <form id="form-container">
+		            <input type="text" id="fname" name="fname" value="First Name"><br><br>
+			        <input type="text" id="lname" name="lname" value="Last Name"><br><br>
+				    <input type="text" id="email-address" name="email-address" value="Email Address"><br><br>
+			        <textarea id="contact" name="contact" rows="4" cols="20" placeholder="Message Here"></textarea><br><br>
+			        <button id="btn"><a href="mailto:restaurant@bloomtech.com">SUBMIT</a></button>
+			    </form>
+				<div id="img-div">
+			        <img src="img/phone-icon.jpg" />
+			        <p id="center">Please message us. We'd love to here from you!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- spacer -->
+	<div class="spacer-sm"></div>
+
+	<!-- footer section -->
+	<footer>
+	    <div id="input-container">
+		    <p id="input-header">Join our mailing list!</p>
+			<input placeholder="Email Address" />
+			<button>Sign Up</button>
+		</div>
+
+		<div id="nav-container">
+		    <nav>
+			    <a href="menu.html">Menu</a>
+				<a href="reservations.html">Reservations</a>
+				<a href="specialOffers.html">Special Offers</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+			<p id="copyright">©2022 BloomTech Restaurant Group, inc. All rights reserved.</p>
+		</div>
+	</footer>
+    </body>
+</html>

@@ -1,43 +1,141 @@
 <!Doctype html>
-
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Reservations</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="css\universal.css" /> 
+	<link rel="stylesheet" href="css\reservations.css" />
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-		<!-- header -->
-		<header>
+	<!-- header -->
+	<header>
+		<div class="header-section">
+			<nav>
+				<h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
+			</nav>
+
+			<!-- nav -->
+			<nav id="main-nav">
+				<a href="menu.html">Menu</a>
+				<a href="reservations.html">Reservations</a>
+				<a href="specialOffers.html">Special Offers</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+
 			<div>
-				<nav>
-                  <h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
-				</nav>
-            </div>
-		    
-			<div>
-				<!-- nav -->
-				<nav id="main-nav">
-				  <a href="menu.html">Menu</a>
-				  <a href="reservations.html">Reservations</a>
-				  <a href="specialOffers.html">Special Offers</a>
-				  <a href="contact.html">Contact</a>
-				</nav>
-			</div>
-			<div>
-                <!-- social media icon nav links -->
+				<!-- social media icon nav links -->
 				<nav class="social-media-icon">
 					<a class="icon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook fa-lg"></i></a>
 					<a class="icon" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter fa-lg"></i></a>
 					<a class="icon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
 				</nav>
-            </div>
-		</header>
-        <body>
-          <h1>Reservations</h1>
+			</div>
+		</div>
+	</header>
+    
+		   <!-- spacer -->
+		   <div class="spacer"></div>
+		   <section class="reservation-section">
+			<div id="backgroundColor">
+			<div id="btn-div">
+			    <button id="waitList">WAITLIST</button>
+			    <button id="orderToGo">ORDER TO GO</button>
+		
+			<div id="hide">
+			    <img src="img/seating-icon.png" />
+			    <p>Seating Options</p>
+			</div>
+			
+			    <form id="reservation-form">
+				    <label for="bar" class="checkmark">Bar</label>
+					<input type="checkbox" id="bar" name="bar" value="bar">
+
+					<label for="counter"  class="checkmark">Counter</label>
+                    <input type="checkbox" id="counter" name="counter" value="counter">
+				   
+					<label for="standard"  class="checkmark">Standard</label>
+				    <input type="checkbox" id="standard" name="standard" value="standard">
+				  
+					<label for="high-top"  class="checkmark">High Top</label>
+				    <input type="checkbox" id="high-top" name="high-top" value="high-top">
+				   
+					<label for="outdoor"  class="checkmark">Outdoor</label>
+					<input type="checkbox" id="outdoor" name="outdoor" value="outdoor">
+				   
+			    </form>
+
+				<div id="show">
+					<img src="img/menu-icon.png" alt="menu"/>
+					<p>Menu</p>
+				</div>
+			
+			    <form id="to-go-form">
+				    <label for="drinks" class="checkmark">Drinks</label>
+					<input type="checkbox" id="bar" name="Drinks" value="drinks">
+
+				    <label for="soup-and-salad"  class="checkmark">Soup and Salad</label>
+					<input type="checkbox" id="appetizers" name="appetizers" value="appetizers">
+
+					<label for="Entrees"  class="checkmark">Entrees</label>
+				    <input type="checkbox" id="soup-and-salad" name="soup-and-salad" value="souip-and-salad">
+				    
+					<label for="high-top"  class="checkmark">High Top</label>
+				    <input type="checkbox" id="entrees" name="entrees" value="entrees">
+				   
+					<label for="deserts"  class="checkmark">Deserts</label>
+				    <input type="checkbox" id="deserts" name="deserts" value="deserts">
+			    </form>
+				</div>
+			</div>
+		   </section>
+        
+		  <div class="spacer-sm"></div>
+		  <!-- footer section -->
+		  <footer>
+			 <div id="input-container">
+			   <p id="input-header">Join our mailing list!</p>
+			   <input placeholder="Email Address"/>
+			   <button>Sign Up</button>
+			 </div>
+		 
+			 <div id="nav-container">
+			   <nav class="nav">
+				 <a href="menu.html">Menu</a>
+				 <a href="reservations.html">Reservations</a>
+				 <a href="specialOffers.html">Special Offers</a>
+				 <a href="contact.html">Contact</a>
+			   </nav>
+			   <p id="copyright">©2022 BloomTech Restaurant Group, inc. All rights reserved.</p>
+			 </div>
+		   </footer>
+	   </div>
+
+	   <script>
+		const waitList = document.getElementById('waitList');
+        const orderToGo = document.getElementById('orderToGo');
+        const form = document.getElementById('reservation-form');
+		const toGoForm = document.getElementById('to-go-form');
+		const hide = document.getElementById('hide');
+		const show = document.getElementById("show");
+        
+		orderToGo.addEventListener('click', function() {
+		 form.style.display = 'none';
+		 hide.style.display = 'none';
+		 toGoForm.style.display = "flex";
+		 show.style.display = "flex";
+		}, false);
+
+		waitList.addEventListener('click', function() {
+		  hide.style.display = "flex";
+          form.style.display = "flex";
+		  toGoForm.style.display = "none";
+		  show.style.display = "none";
+		},false);
+	
+	   </script>
         </body>
     </html>
