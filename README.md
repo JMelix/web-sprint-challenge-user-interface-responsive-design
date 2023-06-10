@@ -105,9 +105,9 @@ Dark borders: rgb(0, 4, 17);
 ​
 ​
 ### Additional Stretch Goals
-* [ ] Create additional HTML and CSS for Reservations, Special Offers, and Contact pages.
-* [ ] Make those additional pages responsive.
-* [ ] Add animations.
+* [x] Create additional HTML and CSS for Reservations, Special Offers, and Contact pages.
+* [x] Make those additional pages responsive.
+* [x] Add animations.
 * [ ] Host on Netlify.
 ​
 ​

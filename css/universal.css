@@ -211,7 +211,7 @@ header .header-section {
     /* position: fixed; */
 }
 
-header .header-section nav #link-home-page {
+header .header-section #link-home-page {
     font-size: 6rem;
 }
 
@@ -388,21 +388,21 @@ footer {
       width: 100%;
     }
   
-    header div nav {
+    header div #main-nav {
       display: flex;
       flex-direction: column;
     }
   
-    header div nav a { 
+    header div #main-nav a { 
       font-size: 3rem;
       padding-bottom: 1%;
     }
   
-    header div nav a:hover {
+    header div #main-nav a:hover {
       text-decoration: underline;
     }
   
-    header div nav #link-home-page {
+    header .header-section h1 #link-home-page {
       font-size: 5.4rem;
       padding: 2%;
       text-align: center;

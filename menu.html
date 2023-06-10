@@ -1,31 +1,29 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprint Challenge - Menu</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-    <link rel="stylesheet" href="css/universal.css" />
-    <link rel="stylesheet" href="css/menu.css" />
-    <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sprint Challenge - Menu</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+        <link rel="stylesheet" href="css/universal.css" />
+        <link rel="stylesheet" href="css/menu.css" />
+        <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
         <!-- header -->
         <header>
             <div class="header-section">
-                <nav>
-                    <h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
-                </nav>
-
+                <h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
                 <!-- nav -->
-                <nav id="main-nav">
-                    <a href="menu.html">Menu</a>
-                    <a href="reservations.html">Reservations</a>
-                    <a href="specialOffers.html">Special Offers</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-    
+			   <div id="main-nav">
+                   <nav>
+				       <a href="menu.html">Menu</a>
+                       <a href="reservations.html">Reservations</a>
+				       <a href="specialOffers.html">Special Offers</a>
+				       <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+
                 <div>
                     <!-- social media icon nav links -->
                     <nav class="social-media-icon">
@@ -42,147 +40,177 @@
 
         <!-- menu -->
         <article class="menu">
-          <div class="food-selection">
-            
-            <div class="heading-container">
-                <h2>Food &amp; Drink</h2>
-            </div>
+            <div class="food-selection">
+                <div class="heading-container">
+                    <h2>Food &amp; Drink</h2>
+                </div>
 
-            <div class="menu-container">
-                
-                <div class="menu-section">
-                   
+                <div class="menu-container">
+                    <div class="menu-section">
+                        <!-- Working right here at modifying the menu trying to fix the problem with the p tag whatever that is-->
                         <h3>Drinks</h3>
                         <div class="menu-item">
-                            <h4>Soda</h4>
-                            <h4 class="money">$5</h4>
+                            <div class="row">
+                                <h4>Soda</h4>
+                                <h4 class="money">$5</h4>
+                            </div>
+                            <p class="border">Coke products</p>
                         </div>
-                        <p class="border">Coke products</p>
-                   
+                       
                         <div class="menu-item">
-                            <h4>Coffee</h4>
-                            <h4 class="money">$2</h4>
+                            <div class="row">
+                                <h4>Coffee</h4>
+                                <h4 class="money">$2</h4>
+                            </div>
+                            <p class="border">Cream and sugar available upon request</p>
                         </div>
-                        <p class="border">Cream and sugar available upon request</p>
-                  
+                       
                         <div class="menu-item">
-                            <h4>Beer</h4>
-                            <h4 class="money">$5</h4>
+                            <div class="row">
+                                <h4>Beer</h4>
+                                <h4 class="money">$5</h4>
+                            </div>
+                            <p class="border">Delicious and refreshing</p>
                         </div>
-                        <p class="border">Delicious and refreshing</p>
-                   
+                       
                         <div class="menu-item">
-                            <h4>Wine</h4>
-                            <h4 class="money">$5</h4>
+                            <div class="row">
+                                <h4>Wine</h4>
+                                <h4 class="money">$5</h4>
+                            </div>
+                            <p class="border">Light and fruity</p>
                         </div>
-                        <p class="border">Light and fruity</p>
-                  
+                       
                         <div class="menu-item">
-                            <h4>Cocktail</h4>
-                            <h4 class="money">$10</h4>
+                            <div class="row">
+                                <h4>Cocktail</h4>
+                                <h4 class="money">$10</h4>
+                            </div>
+                            <p>Ask about our specials</p>
                         </div>
-                        <p>Ask about our specials</p>
-                </div>
+                    </div>
 
-                <!-- Appitizer section -->
-                <div class="menu-section">
-                      <h3>Appetizers</h3>
-                      <div class="menu-item">
-                          <h4>Fried Pickles</h4>
-                          <h4 class="money">$6</h4>
-                      </div>
-                      <p>Golden and crispy with tang!</p>
-                      <p class="italic border"><i>(V)</i></p>
-                  
-                      <div class="menu-item">
-                          <h4>Buffalo Wings</h4>
-                          <h4 class="money">$10</h4>
-                      </div>
-                      <p>5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks</p>
-                      <p class="italic border"><i>(GF)</i></p>
-                 
-                      <div class="menu-item">
-                          <h4>Poutine</h4>
-                          <h4 class="money">$5</h4>
-                      </div>
-                      <p>Homemade fries topped with everything but the kitchen sink</p>
-                </div>
+                    <!-- Appitizer section -->
+                    <div class="menu-section">
+                        <h3>Appetizers</h3>
+                        <div class="menu-item">
+                            <div class="row">
+                                <h4>Fried Pickles</h4>
+                                <h4 class="money">$6</h4>
+                            </div>
+                            <p>Golden and crispy with tang!</p>
+                            <p class="italic border"><i>"(V)"</i></p>
+                        </div>
+                    
+                        <div class="menu-item">
+                            <div class="row">
+                                <h4>Buffalo Wings</h4>
+                                <h4 class="money">$10</h4>
+                            </div>
+                            <p>5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks</p>
+                            <p class="italic border"><i>"(GF)"</i></p>
+                        </div>
+                     
+                        <div class="menu-item">
+                            <div class="row">
+                                <h4>Poutine</h4>
+                                <h4 class="money">$5</h4>
+                            </div>
+                            <p>Homemade fries topped with everything but the kitchen sink</p>
+                        </div>
+                    </div>
 
-                <!-- Soup and salad section -->
-                <div class="menu-section">
+                    <!-- Soup and salad section -->
+                    <div class="menu-section">
                         <h3>Soup and Salad</h3>
                         <div class="menu-item">
-                            <h4>House Salad</h4>
-                            <h4 class="money">$8</h4>
+                            <div class="row">
+                                <h4>House Salad</h4>
+                                <h4 class="money">$8</h4>
+                            </div>
+                            <p>Spinach and arugala with all the good veggies; add chicken for $6</p>
+                            <p class="italic border"><i>"(GF, V)"</i></p>
                         </div>
-                        <p>Spinach and arugala with all the good veggies; add chicken for $6</p>
-                        <p class="italic border"><i>(GF, V)</i></p>
-                
+                        
                         <div class="menu-item">
-                            <h4>French Onion Soup</h4>
-                            <h4 class="money">$4</h4>
+                            <div class="row">
+                                <h4>French Onion Soup</h4>
+                                <h4 class="money">$4</h4>
+                            </div>
+                            <p class="border">Served with a thick topping of cheese and delicious bread</p>
                         </div>
-                        <p class="border">Served with a thick topping of cheese and delicious bread</p>
-                 
+                       
                         <div class="menu-item">
-                            <h4>Cheddar Broccoli Soup</h4>
-                            <h4 class="money">$5</h4>
+                            <div class="row">
+                                <h4>Cheddar Broccoli Soup</h4>
+                                <h4 class="money">$5</h4>
+                            </div>
+                            <p>Creamy and filling</p>
+                            <p class="italic"><i>"(GF)"</i></p>
                         </div>
-                        <p>Creamy and filling</p>
-                        <p class="italic"><i>(GF)</i></p>
-                   
-                </div>
+                    </div>
 
-                <!-- Entrees section -->
-                <div class="menu-section">
-                 
+                    <!-- Entrees section -->
+                    <div class="menu-section">
                         <h3>Entrees</h3>
                         <div class="menu-item">
-                            <h4>Ribeye Steak</h4>
-                            <h4 class="money">$32</h4>
+                            <div class="row">
+                                <h4>Ribeye Steak</h4>
+                                <h4 class="money">$32</h4>
+                            </div>
+                            <p class="border">Served with mashed potatoes and roasted asparagus</p>
                         </div>
-                        <p class="border">Served with mashed potatoes and roasted asparagus</p>
-                   
+                       
                         <div class="menu-item">
-                            <h4>Big Boy Burger</h4>
-                            <h4 class="money">$14</h4>
+                            <div class="row">
+                                <h4>Big Boy Burger</h4>
+                                <h4 class="money">$14</h4>
+                                <p>Beef or black bean burger on homemade bun served with fries</p>
+                            </div>
+                            <p class="italic"><i>Black Bean Burger:</i></p>
+                            <p class="italic border"><i>"(V)"</i></p>
                         </div>
-                        <p>Beef or black bean burger on homemade bun served with fries</p>
-                        <p class="italic"><i>Black Bean Burger:</i></p>
-                        <p class="italic border"><i>(V)</i></p>
-                   
+                        
                         <div class="menu-item">
-                            <h4>Pork Shortrib</h4>
-                            <h4 class="money">$18</h4>
-                        </div>
-                        <p>Melt off the bone finger food</p>
-                        <p class="italic"><i>(GF)</i></p>
-                </div>
+                            <div class="row">
+                                <h4>Pork Shortrib</h4>
+                                <h4 class="money">$18</h4>
+                            </div>
+                            <p>Melt off the bone finger food</p>
+                            <p class="italic"><i>"(GF)"</i></p>
+                        </div>  
+                    </div>
            
-                <!-- Deserts section -->
-                <div class="menu-section">
+                    <!-- Deserts section -->
+                    <div class="menu-section">
                         <h3>Desserts</h3>
                         <div class="menu-item">
-                            <h4>Flourless Chocolate Cake</h4>
-                            <h4 class="money">$7</h4>
+                            <div class="row">
+                                <h4>Flourless Chocolate Cake</h4>
+                                <h4 class="money">$7</h4>
+                            </div>
+                            <p>Gooey and chocolatey heaven</p>
+                            <p class="italic border"><i></i>"(GF)"</p>
                         </div>
-                        <p>Gooey and chocolatey heaven</p>
-                        <p class="italic border"><i></i>(GF)</p>
-                   
+                        
                         <div class="menu-item">
-                            <h4>Cookies and Ice Cream</h4>
-                            <h4 class="money">$6</h4>
+                            <div class="row">
+                                <h4>Cookies and Ice Cream</h4>
+                                <h4 class="money">$6</h4>
+                            </div>
+                            <p class="border">Choose 2 cookies and 1 scoop of ice cream from an assortment</p>
                         </div>
-                        <p class="border">Choose 2 cookies and 1 scoop of ice cream from an assortment</p>
-                  
+                       
                         <div class="menu-item">
-                            <h4>Creme Brulee</h4>
-                            <h4 class="money">$8</h4>
+                            <div class="row">
+                                <h4>Creme Brulee</h4>
+                                <h4 class="money">$8</h4>
+                            </div>
+                            <p>Crispy scorched top containing a perfect, smooth custard</p>
+                            <p class="italic"><i>"(GF)"</i></p>
                         </div>
-                        <p>Crispy scorched top containing a perfect, smooth custard</p>
-                        <p class="italic"><i>(GF)</i></p>
-                  </div>
-            </div>
+                    </div>
+                </div>
             </div> 
         </article>
        
@@ -207,5 +235,11 @@
 			    <p id="copyright">©2022 BloomTech Restaurant Group, inc. All rights reserved.</p>
 			</div>
 		</footer>
+        <script>
+            const nav = document.querySelector('header div nav a');
+            if(nav.href.includes("menu.html")) {
+              console.log(true);
+            }
+        </script>
     </body>
 </html>

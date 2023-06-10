@@ -45,7 +45,7 @@ header {
   margin: auto 0;
 }
 
-.menu-item {
+.row {
   padding-top: 2%;
   display: flex;
   flex-direction: row;
@@ -168,7 +168,7 @@ header {
   }
 
   /* display menu items in a column */
-  .menu-section .menu-item {
+  .menu-section .row {
     width: 100%;
     display: flex;
     flex-direction: column;
