@@ -1,48 +1,56 @@
 <!Doctype html>
-
 <html lang="en">
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Sprint Challenge - Home</title>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sprint Challenge - Home</title>
+		<!-- Stylesheet to utilize google fonts -->
+	    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-	<link rel="stylesheet" href="css/universal.css" />
-	<link rel="stylesheet" href="css/index.css" />
-	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+		<!-- Universal css document to style the header section and the footter section for all html documents -->
+	    <link rel="stylesheet" href="css/universal.css" />
+
+		<!-- Stylesheet specific to the index html document -->
+	    <link rel="stylesheet" href="css/index.css" />
+
+		<!-- Script to utilize font awesome to import social media icons -->
+	    <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body> 
 	<!-- header -->
 	<header>
 		<div class="header-section">
+			<!-- Make the main heading and name a link back to the home page -->
 		    <h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
-			
-			<!-- nav -->
-			<div class="links">
+		    
+			<!-- The websites main navigation -->
+			<div id="main-nav">
 			    <nav>
-				    <a href="/menu.html"><i>Menu</i></a>
-				    <a href="reservations.html"><i>Reservations</i></a>
-				    <a href="specialOffers.html"><i>Special Offers</i></a>
-				    <a href="contact.html"><i>Contact</i></a>
-			    </nav>
-           </div>
-
-		    <div>
-			    <!-- social media icon nav links -->
-			    <nav class="social-media-icon">
-				    <a class="icon" href="https://www.facebook.com/" target="_blank"><i
+					<!-- Flex navigation into a column at 428px -->
+					<div id="column">
+				        <a href="menu.html">Menu</a>
+				        <a href="reservations.html">Reservations</a>
+				        <a href="specialOffers.html">Special Offers</a>
+				        <a href="contact.html">Contact</a>
+					</div>
+			    
+					<!-- The social media navigation links -->
+		            <div class="social-media-icon">
+			        <!-- social media icon nav links -->
+			            <a class="icon" href="https://www.facebook.com/" target="_blank"><i
 						class="fa-brands fa-square-facebook fa-lg"></i></a>
-				    <a class="icon" href="https://twitter.com/" target="_blank"><i
+				        <a class="icon" href="https://twitter.com/" target="_blank"><i
 						class="fa-brands fa-square-twitter fa-lg"></i></a>
-				    <a class="icon" href="https://www.instagram.com/" target="_blank"><i
+				        <a class="icon" href="https://www.instagram.com/" target="_blank"><i
 						class="fa-brands fa-instagram fa-lg"></i></a>
+			        </div>
 			    </nav>
-			</div>
+		    </div> 
 		</div>
 	</header>
-	<!-- gallery section -->
+	<!-- The gallery section containing an array of portfolio element images -->
 	<section class="gallery">
 		<div>
 			<h2 class="heading-two">OUR FOOD</h2>
@@ -104,7 +112,7 @@
 	</section>
 
 	<!-- spacer -->
-	<div class="spacer" id="page-fixer"></div>
+	<div class="spacer"></div>
 
 	<!-- contact section -->
 	<section class="contact">

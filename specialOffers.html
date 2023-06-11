@@ -1,114 +1,125 @@
 <!Doctype html>
 
 <html lang="en">
+    <head>
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Sprint Challenge - Special Offers</title>
 
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sprint Challenge - Special Offers</title>
+		<!-- Stylesheet to utilize google fonts -->
+	    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-	<link rel="stylesheet" href="css/universal.css" />
-	<link rel="stylesheet" href="css/specialOffers.css" />
-	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <!-- header -->
-  <header>
-    <div class="header-section">
-	    <h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
-	
-	    <!-- nav -->
-		<div id="main-nav">
-		    <a href="/menu.html">Menu</a>
-			<a href="/reservations.html">Reservations</a>
-			<a href="/specialOffers.html">Special Offers</a>
-			<a href="/contact.html">Contact</a>
-        </div>
+		<!-- Universal css document to style the header section and the footter section for all html documents -->
+	    <link rel="stylesheet" href="css/universal.css" />
+		
+        <!-- Stylesheet specific to the special offers html document -->
+	    <link rel="stylesheet" href="css/specialOffers.css" />
 
-	    <div>
-            <!-- social media icon nav links -->
-	        <nav class="social-media-icon">
-	            <a class="icon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook fa-lg"></i></a>
-		        <a class="icon" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter fa-lg"></i></a>
-		        <a class="icon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-	        </nav>
-		</div>
-    </div>
-  </header>
-
-  <!-- spacer -->
-  <div class="spacer"></div>
-
-  <section class="special-offers">
-	<div class="background">
-
-    <div>
-      <h1>Our Weekly Special Offers</h1>
-	</div>
+		<!-- Script to utilize fontawesome.com to import social media icons -->
+	    <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- header -->
+	    <header>
+		    <div class="header-section">
+			    <!-- Make the main heading and name a link back to the home page -->
+			    <h1><a href="index.html" id="link-home-page">BLOOMTECH BAR AND GRILL</a></h1>
+			
+			    <!-- The websites main navigation -->
+			    <div id="main-nav">
+				    <nav>
+						<div id="column">
+						    <a href="menu.html">Menu</a>
+						    <a href="reservations.html">Reservations</a>
+						    <a href="specialOffers.html">Special Offers</a>
+						    <a href="contact.html">Contact</a>
+					    </div>
 				
-    <div class="special-offers-container">
-	  <div class="special-offers-items">
-	    <div>
-			<p>On Monday buy one of our savory buffalo chicken fingers, and get the second order free</p>
-		</div>
-        <img src="img/food-chickenfingers.jpg" alt="A picture of our special chicken fingers offer"/>
-	  </div>
+					    <!-- The social media navigation links -->
+					    <div class="social-media-icon">
+					    <!-- social media icon nav links -->
+						    <a class="icon" href="https://www.facebook.com/" target="_blank"><i
+						    class="fa-brands fa-square-facebook fa-lg"></i></a>
+						    <a class="icon" href="https://twitter.com/" target="_blank"><i
+						    class="fa-brands fa-square-twitter fa-lg"></i></a>
+						    <a class="icon" href="https://www.instagram.com/" target="_blank"><i
+						    class="fa-brands fa-instagram fa-lg"></i></a>
+					    </div>
+				    </nav>
+			    </div> 
+		    </div>
+	    </header>
+
+        <!-- spacer -->
+        <div class="spacer"></div>
+
+        <section class="special-offers">
+	        <div class="background">
+                <div>
+                    <h1>Our Weekly Special Offers</h1>
+	            </div>
+				
+                <div class="special-offers-container">
+	                <div class="special-offers-items">
+	                    <div>
+			                <p>On Monday buy one of our savory buffalo chicken fingers, and get the second order free</p>
+		                </div>
+                        <img src="img/food-chickenfingers.jpg" alt="A picture of our special chicken fingers offer"/>
+	                </div>
 					
-	
-	  <div class="special-offers-items">
-		<div>
-			<p>20% off when you order our specialty steak</p>
-		</div>
-        <img src="img/food-steak.jpg" alt="A picture of our specialty steak"/>
-	  </div>
+	                <div class="special-offers-items">
+		                <div>
+			                <p>20% off when you order our specialty steak</p>
+		                </div>
+                        <img src="img/food-steak.jpg" alt="A picture of our specialty steak"/>
+	                </div>
 
-	  <div class="special-offers-items">
-		<div>
-			<p>Memorial day weekend vets eat for free!</p>
-		</div>
-        <img src="img/food-poutine.jpg" alt="A picture of our specialty steak"/>
-	  </div>
-	</div>
+	                <div class="special-offers-items">
+		                <div>
+			                 <p>Memorial day weekend vets eat for free!</p>
+		                </div>
+                        <img src="img/food-poutine.jpg" alt="A picture of our specialty steak"/>
+	                </div>
+	            </div>
+			</div>
+        </section>
 
-	</div>
-  </section>
+        <!-- spacer -->
+        <div class="spacer"></div>
 
-  <!-- spacer -->
-  <div class="spacer"></div>
+        <!-- With any purchase over $100 register to win a free trip to Sunday River Ski Resort. -->
+        <section class="win">
+	        <div class="win-container">
+	            <div id="win-title">
+	                <h2>Win a free trip!!!</h2>
+	            </div><br>
+	            <div id="win-para">
+	                <p>Register to win a free trip to Monday River Ski Resort with any purchase over $100.00!</p>
+	            </div><br>
+		        <button>Register Here</button>
+	        </div>
+        </section>
 
-  <!-- With any purchase over $100 register to win a free trip to Sunday River Ski Resort. -->
-  <section class="win">
-	<div class="win-container">
-	    <div id="win-title">
-	        <h2>Win a free trip!!!</h2>
-	    </div><br>
-	    <div id="win-para">
-	        <p>Register to win a free trip to Sunday River Ski Resort with any purchase over $100.00!</p>
-	    </div><br>
-		<button>Register Here</button>
-	</div>
-  </section>
-  <div class="spacer"></div>
+		<!-- spacer -->
+        <div class="spacer"></div>
 
-  <!-- footer section -->
-  <footer>
-	<div id="input-container">
-	  <p id="input-header">Join our mailing list!</p>
-	  <input placeholder="Email Address"/>
-	  <button>Sign Up</button>
-	</div>
+        <!-- footer section -->
+        <footer>
+	        <div id="input-container">
+	            <p id="input-header">Join our mailing list!</p>
+	            <input placeholder="Email Address"/>
+	            <button>Sign Up</button>
+	        </div>
 
-	<div id="nav-container">
-	  <nav class="nav">
-		<a href="menu.html">Menu</a>
-		<a href="reservations.html">Reservations</a>
-		<a href="specialOffers.html">Special Offers</a>
-		<a href="contact.html">Contact</a>
-	  </nav>
-	  <p id="copyright">©2022 BloomTech Restaurant Group, inc. All rights reserved.</p>
-	</div>
-  </footer>
-</div>
-</body>
+	        <div id="nav-container">
+	            <nav class="nav">
+		            <a href="menu.html">Menu</a>
+		            <a href="reservations.html">Reservations</a>
+		            <a href="specialOffers.html">Special Offers</a>
+		            <a href="contact.html">Contact</a>
+	            </nav>
+	            <p id="copyright">©2022 BloomTech Restaurant Group, inc. All rights reserved.</p>
+	        </div>
+        </footer>
+    </body>
 </html>

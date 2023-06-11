@@ -219,12 +219,12 @@ header .header-section #main-nav {
   padding-top: 1.6%;
 }
 
-header .header-section #main-nav a {
+header .header-section #main-nav nav a {
   font-size: 2.6rem;
   padding: 0 6.8%; 
 }
 
-header div #main-nav a:hover {
+header #main-nav nav a:hover {
   text-decoration: underline;
 }
 
@@ -388,17 +388,17 @@ footer {
       width: 100%;
     }
   
-    header div #main-nav {
+    header div #main-nav nav #column {
       display: flex;
       flex-direction: column;
     }
   
-    header div #main-nav a { 
+    header div #main-nav nav #column a { 
       font-size: 3rem;
       padding-bottom: 1%;
     }
   
-    header div #main-nav a:hover {
+    header div #main-nav nav #column a:hover {
       text-decoration: underline;
     }
   

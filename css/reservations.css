@@ -133,17 +133,20 @@ header {
   }
 
   /* reservation section */
+  .reservation-section #btn-div button {
+    padding: 2% 4%;
+  }
+
+  .reservation-section #hide {
+    width: 70%;
+  }
+
   .reservation-section form {
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
     padding-bottom: 4%; 
-  }
-
-  .reservation-section #btn-div button {
-    padding: 2% 4%;
   }
 
   /* footer section */
